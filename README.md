@@ -1,6 +1,8 @@
 # README
 
-To reproduce the bug, run
+**Latest reproduction can be found as a single file executable at https://github.com/rails/rails/issues/52061.**
+
+To reproduce the bug with this full application instead, run
 ```
 bin/rails db:reset && bin/rails test test/models/work_test.rb
 ```
